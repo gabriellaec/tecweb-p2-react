@@ -26,6 +26,8 @@ export default props => (
         <Route path='/usuarios' component={Usuarios} />
         <Route path='/cadastro' component={Cadastro}/>
         <Route path='/login' component={Login} />
+        <Route path='/' component={Login} />
+
         <Route path='/home' component={Home} />
         <Route path='/postlist' component={Postlist} />
         <Route path='/geolocation' component={Geolocation} />
